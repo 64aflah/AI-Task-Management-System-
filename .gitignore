@@ -1,1 +1,37 @@
-.vs/ 
+# Build artifacts
+bin/
+obj/
+.vs/
+
+# IDE
+.vscode/
+*.swp
+*.swo
+*~
+
+# NuGet
+.nuget/
+packages/
+*.nupkg
+*.snupkg
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio cache/options
+.vs/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Environment variables
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
