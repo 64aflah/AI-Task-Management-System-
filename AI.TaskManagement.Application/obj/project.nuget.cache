@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "dgSpecHash": "M+joS2yV7rM=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\hp\\source\\repos\\AI.TaskManagement.Domain\\AI.TaskManagement.Application\\AI.TaskManagement.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\fluentvalidation\\11.8.1\\fluentvalidation.11.8.1.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "message": "Detected package version outside of dependency constraint: AutoMapper.Extensions.Microsoft.DependencyInjection 12.0.1 requires AutoMapper (= 12.0.1) but version AutoMapper 13.0.1 was resolved.",
+      "projectPath": "C:\\Users\\hp\\source\\repos\\AI.TaskManagement.Domain\\AI.TaskManagement.Application\\AI.TaskManagement.Application.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\hp\\source\\repos\\AI.TaskManagement.Domain\\AI.TaskManagement.Application\\AI.TaskManagement.Application.csproj",
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\hp\\source\\repos\\AI.TaskManagement.Domain\\AI.TaskManagement.Shared\\AI.TaskManagement.Shared.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "projectPath": "C:\\Users\\hp\\source\\repos\\AI.TaskManagement.Domain\\AI.TaskManagement.Application\\AI.TaskManagement.Application.csproj",
+      "filePath": "C:\\Users\\hp\\source\\repos\\AI.TaskManagement.Domain\\AI.TaskManagement.Application\\AI.TaskManagement.Application.csproj",
+      "libraryId": "C:\\Users\\hp\\source\\repos\\AI.TaskManagement.Domain\\AI.TaskManagement.Shared\\AI.TaskManagement.Shared.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'AutoMapper' 13.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x",
+      "projectPath": "C:\\Users\\hp\\source\\repos\\AI.TaskManagement.Domain\\AI.TaskManagement.Application\\AI.TaskManagement.Application.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\hp\\source\\repos\\AI.TaskManagement.Domain\\AI.TaskManagement.Application\\AI.TaskManagement.Application.csproj",
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
